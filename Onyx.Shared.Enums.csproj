@@ -2,10 +2,24 @@
 
 	<PropertyGroup>
 		<TargetFramework>net10.0</TargetFramework>
-		<Version>1.0.0</Version>
-		<PackageReleaseNotes></PackageReleaseNotes>
+		<Version>1.0.1</Version>
+		<PackageReleaseNotes>
+			1.0.1 - Added AccessLevel
+		</PackageReleaseNotes>
+
+		<PackageId>Onyx.Shared.Enums	</PackageId>
+
+		<Description>Solution for shared enum types</Description>
+
+		<RepositoryUrl>
+			https://github.com/dylanparson001/Onyx.Shared.Enums
+		</RepositoryUrl>
+		
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
+
+
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 	</PropertyGroup>
 
 </Project>
